@@ -7,6 +7,9 @@ The Company is undergoing a major systematic change in tea blending processes an
 TASK:
 There is a need to create workflow that pulls SAP data and emails Power BI report. This report should allow stakeholders to quickly understand the number of errors and the operator responsible for the wrong material usage. Also, microscopic details should be present in the report for production coordinators to easily investigate the error further.
 
+PRE-REQUISITES:
+The SAP HANA databse instance, subscription, schema, table details are obtained from IT
+
 ACTION:
 1. There are two sources of data from SAP HANA. One is Warehouse task data which details the warehouse task information for the regular tea hoppers and other is silo bin table which describes the hopper code and its corresponding material code. The idea is to manipulate these two information to find out wrong usage of materials to hoppers and in turn find out the operator responsible for the issue
 
@@ -15,6 +18,11 @@ ACTION:
 SAP HANA DATABASE EXPLORER:
 
 <img width="882" height="599" alt="image" src="https://github.com/user-attachments/assets/14d48302-407e-40dc-88ef-028f5ff4162c" />
+
+SAP HANA TABLES:
+
+<img width="1860" height="834" alt="image" src="https://github.com/user-attachments/assets/49917e6a-da6f-4179-b3dc-5945f2f93148" />
+
 
 CODE TO EXTRACT DATA:
 
